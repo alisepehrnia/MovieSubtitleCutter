@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "KrUbxDgQWcQ=",
+  "success": true,
+  "projectFilePath": "I:\\Repos\\MovieSubtitleCutter\\IndexerConsole\\IndexerConsole.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ali\\.nuget\\packages\\elastic.clients.elasticsearch\\8.14.6\\elastic.clients.elasticsearch.8.14.6.nupkg.sha512",
+    "C:\\Users\\Ali\\.nuget\\packages\\elastic.transport\\0.4.20\\elastic.transport.0.4.20.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,70 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "IndexerConsole/1.0.0": {
+        "dependencies": {
+          "Elastic.Clients.Elasticsearch": "8.14.6",
+          "SrtParser": "1.0.0"
+        },
+        "runtime": {
+          "IndexerConsole.dll": {}
+        }
+      },
+      "Elastic.Clients.Elasticsearch/8.14.6": {
+        "dependencies": {
+          "Elastic.Transport": "0.4.20"
+        },
+        "runtime": {
+          "lib/net8.0/Elastic.Clients.Elasticsearch.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.14.6.0"
+          }
+        }
+      },
+      "Elastic.Transport/0.4.20": {
+        "runtime": {
+          "lib/net8.0/Elastic.Transport.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.4.20.0"
+          }
+        }
+      },
+      "SrtParser/1.0.0": {
+        "runtime": {
+          "SrtParser.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IndexerConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Elastic.Clients.Elasticsearch/8.14.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aBRUxxsjFa/2r06AX92THijC643QMKw/tR7YP92WecL2swettSj3pgaSdrM1tnGxp00qVmbYlH/pDn9BOj1pZg==",
+      "path": "elastic.clients.elasticsearch/8.14.6",
+      "hashPath": "elastic.clients.elasticsearch.8.14.6.nupkg.sha512"
+    },
+    "Elastic.Transport/0.4.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/Msl7KoUk0Stg28+g64AujlnR2+1jyR8OkQKcWYPpOy/H1EGpJAvlnVDgF0xJxHIG+MUrejn52uzmJVkWPNjpQ==",
+      "path": "elastic.transport/0.4.20",
+      "hashPath": "elastic.transport.0.4.20.nupkg.sha512"
+    },
+    "SrtParser/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

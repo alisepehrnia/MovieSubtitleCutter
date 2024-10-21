@@ -1,0 +1,185 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Elastic.Clients.Elasticsearch/8.14.6": {
+        "type": "package",
+        "dependencies": {
+          "Elastic.Transport": "0.4.20"
+        },
+        "compile": {
+          "lib/net8.0/Elastic.Clients.Elasticsearch.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Elastic.Clients.Elasticsearch.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Elastic.Transport/0.4.20": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Elastic.Transport.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Elastic.Transport.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SrtParser/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/SrtParser.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SrtParser.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Elastic.Clients.Elasticsearch/8.14.6": {
+      "sha512": "aBRUxxsjFa/2r06AX92THijC643QMKw/tR7YP92WecL2swettSj3pgaSdrM1tnGxp00qVmbYlH/pDn9BOj1pZg==",
+      "type": "package",
+      "path": "elastic.clients.elasticsearch/8.14.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "elastic.clients.elasticsearch.8.14.6.nupkg.sha512",
+        "elastic.clients.elasticsearch.nuspec",
+        "lib/net462/Elastic.Clients.Elasticsearch.dll",
+        "lib/net462/Elastic.Clients.Elasticsearch.xml",
+        "lib/net6.0/Elastic.Clients.Elasticsearch.dll",
+        "lib/net6.0/Elastic.Clients.Elasticsearch.xml",
+        "lib/net8.0/Elastic.Clients.Elasticsearch.dll",
+        "lib/net8.0/Elastic.Clients.Elasticsearch.xml",
+        "lib/netstandard2.0/Elastic.Clients.Elasticsearch.dll",
+        "lib/netstandard2.0/Elastic.Clients.Elasticsearch.xml",
+        "lib/netstandard2.1/Elastic.Clients.Elasticsearch.dll",
+        "lib/netstandard2.1/Elastic.Clients.Elasticsearch.xml",
+        "nuget-icon.png"
+      ]
+    },
+    "Elastic.Transport/0.4.20": {
+      "sha512": "/Msl7KoUk0Stg28+g64AujlnR2+1jyR8OkQKcWYPpOy/H1EGpJAvlnVDgF0xJxHIG+MUrejn52uzmJVkWPNjpQ==",
+      "type": "package",
+      "path": "elastic.transport/0.4.20",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "elastic.transport.0.4.20.nupkg.sha512",
+        "elastic.transport.nuspec",
+        "lib/net462/Elastic.Transport.dll",
+        "lib/net462/Elastic.Transport.pdb",
+        "lib/net462/Elastic.Transport.xml",
+        "lib/net6.0/Elastic.Transport.dll",
+        "lib/net6.0/Elastic.Transport.pdb",
+        "lib/net6.0/Elastic.Transport.xml",
+        "lib/net8.0/Elastic.Transport.dll",
+        "lib/net8.0/Elastic.Transport.pdb",
+        "lib/net8.0/Elastic.Transport.xml",
+        "lib/netstandard2.0/Elastic.Transport.dll",
+        "lib/netstandard2.0/Elastic.Transport.pdb",
+        "lib/netstandard2.0/Elastic.Transport.xml",
+        "lib/netstandard2.1/Elastic.Transport.dll",
+        "lib/netstandard2.1/Elastic.Transport.pdb",
+        "lib/netstandard2.1/Elastic.Transport.xml",
+        "license.txt",
+        "nuget-icon.png"
+      ]
+    },
+    "SrtParser/1.0.0": {
+      "type": "project",
+      "path": "../SrtParser/SrtParser.csproj",
+      "msbuildProject": "../SrtParser/SrtParser.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Elastic.Clients.Elasticsearch >= 8.14.6",
+      "SrtParser >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Ali\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "I:\\Repos\\MovieSubtitleCutter\\IndexerConsole\\IndexerConsole.csproj",
+      "projectName": "IndexerConsole",
+      "projectPath": "I:\\Repos\\MovieSubtitleCutter\\IndexerConsole\\IndexerConsole.csproj",
+      "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
+      "outputPath": "I:\\Repos\\MovieSubtitleCutter\\IndexerConsole\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "I:\\Repos\\MovieSubtitleCutter\\SrtParser\\SrtParser.csproj": {
+              "projectPath": "I:\\Repos\\MovieSubtitleCutter\\SrtParser\\SrtParser.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Elastic.Clients.Elasticsearch": {
+            "target": "Package",
+            "version": "[8.14.6, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
